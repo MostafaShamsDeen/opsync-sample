@@ -1,0 +1,16 @@
+data/*
+
+service-account*.json
+*-credentials.json
+.env
+*.env
+
+_*.json
+_*.txt
+_*.csv
+
+__pycache__/
+*.pyc
+!data/
+!data/clients/
+!data/clients/example.db

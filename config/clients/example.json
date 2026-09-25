@@ -1,0 +1,85 @@
+{
+  "id": "example",
+  "name": "Example Client",
+  "workspace_id": null,
+  "api_key_env": "HEYREACH_API_KEY_EXAMPLE",
+  "spreadsheet_id": "1FAKE01sheetidxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+  "header_row": 2,
+  "first_data_row": 4,
+  "drips_tab": "Drips",
+  "sender_ids": [
+    "700004",
+    "700006"
+  ],
+  "tabs": {
+    "Persona One": {
+      "campaign_ids": [
+        700002
+      ],
+      "historical_campaign_ids": [
+        700001
+      ]
+    },
+    "Persona Two": {
+      "campaign_ids": [
+        700003
+      ]
+    },
+    "Persona Three": {
+      "campaign_ids": [
+        700008
+      ]
+    }
+  },
+  "columns": {
+    "full_name": "Full Name",
+    "linkedin_url": "LinkedIn URL",
+    "company": "Company Name",
+    "title": "Title",
+    "email": "Email Address",
+    "location": "Address",
+    "invite_sent": "LI Invites / Sent",
+    "invite_accepted": "LI Invites / Accepted",
+    "li_type": "LI {n} / Type",
+    "li_date": "LI {n} / Date"
+  },
+  "ownership": {
+    "LI Invites / Sent": "convention",
+    "LI Invites / Accepted": "machine",
+    "LI {n} / Type": "machine",
+    "LI {n} / Date": "machine",
+    "Full Name": "fill",
+    "Company Name": "shared",
+    "Title": "shared",
+    "Address": "shared",
+    "Email Address": "shared",
+    "LinkedIn URL": "fill",
+    "Positive After / Message": "fill",
+    "Positive After / Date": "fill",
+    "Positive After / Reply": "fill",
+    "Neutral / Message": "fill",
+    "Neutral / Date": "fill",
+    "Neutral / Reply": "fill",
+    "Negative / Message": "fill",
+    "Negative / Date": "fill",
+    "Negative / Reply": "fill",
+    "LI Invites / Data Found": "fill"
+  },
+  "report_tab": "Responses",
+  "reply_blocks": {
+    "Positive": "Positive After",
+    "Neutral": "Neutral",
+    "Negative": "Negative"
+  },
+  "max_cells_per_run": 300,
+  "li_bands": 7,
+  "staging": {
+    "spreadsheet_id": "1FAKE02sheetidxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+    "invite_sent_tab": "Connection_Request_Sent",
+    "accepted_tab": "Accepted_Leads_Import"
+  },
+  "max_new_rows_per_run": 60,
+  "mirror": {
+    "LI Invites / Data Found": "LI Invites / Sent"
+  }
+}
